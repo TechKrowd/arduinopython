@@ -1,7 +1,7 @@
 from pyfirmata import Arduino
 import time
 
-LED = 13
+LED = 9
 arduino = Arduino("/dev/ttyACM0")
 
 for x in range (10):
